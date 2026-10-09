@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #183044;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-header {
+  background-color: #090a24;
+  color: white;
+}
+.site-header {
+  padding: 15px 0;
+}
+.brand {
+  gap: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.brand img {
+  width: 105px;
+  flex-shrink: 0;
+}
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: white;
+}
+.hero > img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.hero-content,
+.intro,
+.page-heading {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.section {
+  padding-bottom: 35px;
+}
+
+.yacht-card {
+  color: #183044;
+}
+.yacht-card > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.facts {
+  margin-bottom: 0;
+}
+.facts > div {
+  margin-bottom: 12px;
+}
+dd {
+  margin: 0;
+}
+.logo-panel img {
+  display: block;
+  width: 100%;
+}
+
+#contact-form {
+  margin-top: 20px;
+}
+textarea {
+  resize: vertical;
+}
+.skip-link {
+  position: absolute;
+  top: -100px;
+  background: white;
+  padding: 10px;
+  z-index: 10;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+@media (max-width: 767px) {
+  .hero > img {
+    height: 230px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .brand {
+    font-size: 20px;
+    gap: 8px;
+  }
+}
+
+.contact-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 25px;
+  height: 100%;
+}
+
+.section-heading {
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
